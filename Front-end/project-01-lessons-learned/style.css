@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: 'Poppins', sans-serif;
+}
+
+ul , ol {
+  list-style: none;
+}
+
+h3 {
+  color: rgb(17, 78, 96);
+}
+
+#cabecalho {
+  background-color: rgb(50, 82, 136);
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+}
+
+#cabecalho h1 {
+  font-size: 36px;
+  color: rgb(253, 251, 251);
+  text-align: center;
+}
+
+#navbar {
+  background-color: rgb(50, 82, 136);
+  box-shadow: 2px 2px 2px rgba(33, 33, 33, 0.247);
+  position: fixed;
+  text-align: center;
+  top: 75px;
+  width: 100%;
+  z-index: 4;
+}
+
+#navbar li {
+  color: rgb(253, 251, 251);
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+#navbar li:hover {
+  color: rgb(245, 206, 190);
+  font-weight: 600;
+}
+
+#info {
+  position: relative;
+  text-align: center;
+  top: 150px;
+}
+
+#info img {
+  border-color: rgb(50, 82, 136);
+  border-radius: 15px;
+  max-width: 200px;
+}
+
+.lado-direito {
+  left: 65%;
+  display: inline-block;
+  position: relative;
+  top: 300px;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  line-height: 20px;
+  max-width: 400px;
+  position: relative;
+  text-align: left;
+}
+
+#learnings_2 {
+  display: inline-block;
+  line-height: 20px;
+  max-width: 400px;
+  position: relative;
+  right: 28.5%;
+  top: 200px;
+}
+
+.table {
+  display: block;
+  left: 25%;
+  position: absolute;
+  text-align: center;
+  top: 1400px;
+  width: 100%;
+  z-index: 3;
+}
+
+#rodape {
+  background-color: rgb(50, 82, 136);
+  bottom: -150%;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+#rodape h4 {
+  color: rgb(253, 251, 251);
+  display: block;
+  padding: 25px 0px 50px;
+  position: relative;
+}
+
+#rodape img {
+  border-radius: 100%;
+  margin-bottom: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 40px;
+}
+
+#rodape img:hover {
+  background-color: rgb(253, 251, 251);
+  border-radius: 100%;
+}  
