@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Pixel Art</title>
+</head>
+
+<body>
+    <div id="background-container">
+    <img id="background-img" src="https://static.zerochan.net/ONE.PIECE.full.691826.jpg" alt="Papel de parede do One Piece">
+  </div>
+  <header id="header">
+    <h1 id="title">Paleta de Cores</h1>
+  </header>
+
+  <main>
+    <section>
+      <div id="color-palette">
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+      </div>
+    </section>
+
+    <div id="menu">
+      <button id="clear-board" type="button">Limpar</button>
+      <!-- Consultado em: https://stackoverflow.com/questions/19233415/how-to-make-type-number-to-positive-numbers-only/19233458 -->
+      <input id="board-size" type="number" min="1" max="50" placeholder="5px">
+      <button id="generate-board">VQV</button>
+    </div>
+
+    <section>
+      <div id="pixel-board"></div>
+    </section>
+  </main>
+    <script src="script.js"></script>
+</body>
+</html>
