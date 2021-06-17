@@ -124,11 +124,13 @@ input::placeholder {
 }
 
 .selected {
-  background-color: gray;
+  color: rgb(35, 0, 231);
+  font-weight: 600;
 }
 
 .completed {
-  text-decoration: line-through solid black;
+  color: rgb(255, 0, 0);
+  text-decoration: line-through solid rgb(33, 33, 33);
 }
 
 #updown-container {
